@@ -119,8 +119,9 @@ export default function ContactPage() {
                     className="w-full px-4 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-sm focus:border-[#D4AF37] focus:outline-none"
                   >
                     <option value="central">KSA Central Headquarters Secretariat</option>
-                    <option value="nursing">Kamarajar College of Nursing</option>
-                    <option value="pharmacy">Kamarajar College of Pharmacy</option>
+                    <option value="nursing">Kamarajar College of Nursing (Chidambaram)</option>
+                    <option value="pharmacy">Kamarajar College of Pharmacy (Cuddalore)</option>
+                    <option value="polytechnic">Kamarajar Polytechnic College</option>
                     <option value="maritime">Kamarajar College of Maritime</option>
                   </select>
                 </div>
@@ -153,20 +154,27 @@ export default function ContactPage() {
           <div className="lg:col-span-5 space-y-6">
             <div className="p-6 rounded-3xl bg-[#0A192F] text-white border border-[#D4AF37]/30 space-y-4 shadow-xl">
               <h4 className="text-xl font-bold font-heading text-[#D4AF37] border-b border-slate-800 pb-2">
-                Central Headquarters
+                Central Admission Desk
               </h4>
               <p className="text-xs text-slate-300 leading-relaxed">
-                KSA Administrative Knowledge Corridor, Outer Ring Highway, Chennai South, Tamil Nadu - 600126
+                KSA Educational and Charitable Trust Central Desk, Tamil Nadu
               </p>
               <div className="space-y-2 text-xs text-slate-300">
                 <div className="flex items-center gap-2">
-                  <Phone className="w-4 h-4 text-[#D4AF37]" /> +91 44 2745 8900 / 8901
+                  <Phone className="w-4 h-4 text-[#D4AF37]" /> +91 94876 08775 (CEO)
+                </div>
+                <div className="flex items-center gap-2">
+                  <Phone className="w-4 h-4 text-[#D4AF37]" /> +91 94864 19779 (Principal)
+                </div>
+                <div className="flex items-center gap-2">
+                  <Phone className="w-4 h-4 text-[#D4AF37]" /> +91 87782 74072 (Admission Committee)
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="w-4 h-4 text-[#D4AF37]" /> admissions@ksagroup.edu.in
                 </div>
               </div>
             </div>
+
 
             {INSTITUTIONS.map((inst) => (
               <div key={inst.id} className="p-5 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-2">

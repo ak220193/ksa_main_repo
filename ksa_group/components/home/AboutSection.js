@@ -53,12 +53,12 @@ export default function AboutSection() {
               centered={false}
             />
 
-            <div className="space-y-4 text-black  text-sm leading-relaxed">
+            <div className="space-y-4 text-black text-sm leading-relaxed">
               <p>
-                Our constituent campuses—spanning Nursing, Pharmaceutical
-                Sciences, and Maritime Nautical Sciences—feature multi-specialty
-                clinical simulation centers, advanced chemical analytics
-                laboratories, and 360-degree full-mission ship simulators.
+                The Trust employs nearly 100 dedicated staff members and has a
+                strong focus on promoting education in the rural sector while
+                nurturing young talent for careers in pharmacy, pharmaceutical
+                sciences, healthcare, research, and personalized medicine.
               </p>
             </div>
 
@@ -71,7 +71,7 @@ export default function AboutSection() {
                     Recognized Standards
                   </h4>
                   <p className="text-xs text-slate-500">
-                    INC, PCI, AICTE, DGS & University Affiliated
+                    INC, TNNMC, PCI, AICTE, DoTE & DGS Approved
                   </p>
                 </div>
               </div>
@@ -80,10 +80,10 @@ export default function AboutSection() {
                 <Compass className="w-5 h-5 text-accent-gold shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-bold text-[#0A192F] text-sm">
-                    Industry Immersion
+                    Industry & Hospital MoUs
                   </h4>
                   <p className="text-xs text-slate-500">
-                    Direct hospital wards, pharma R&D & shipping fleets
+                    Govt Cuddalore Medical College Hospital & Top MNCs
                   </p>
                 </div>
               </div>

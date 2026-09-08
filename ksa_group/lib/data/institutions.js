@@ -6,34 +6,39 @@ export const INSTITUTIONS = [
     shortName: "KCN",
     category: "Nursing",
     tagline:
-      "Empowering Compassionate Healthcare Leaders & Clinical Specialists",
-    established: 2004,
+      "Shaping Compassionate Caregivers & Empowering Rural Healthcare Leaders",
+    established: 2021,
     affiliation: "The Tamil Nadu Dr. M.G.R. Medical University",
     accreditation:
-      "Indian Nursing Council (INC) & TNNC Approved | Grade 'A' Accredited",
+      "Approved by Govt. of Tamil Nadu, TNNMC & Indian Nursing Council (INC)",
     description:
-      "Kamarajar College of Nursing is a premier healthcare education institution dedicated to nurturing clinical excellence, empathetic patient care, and cutting-edge medical research. Equipped with multi-specialty simulation labs and tie-ups with top super-specialty hospitals.",
-    heroImage: "/college/1.webp",
+      "Kamarajar College of Nursing, located in the peaceful town of Chidambaram, Tamil Nadu, was initiated in 2021 under the KSA Educational and Charitable Trust. Committed to offering high-quality nursing education, the institution blends rigorous academic knowledge, digital learning tools, hands-on clinical skill labs, and strong human values to empower students—especially rural and underprivileged women.",
+    heroImage: "/college/heroimage1.webp",
     campusImage:
       "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200",
     stats: [
-      { label: "Clinical Bed Tie-ups", value: "1,200+" },
-      { label: "Graduation Placement Rate", value: "100%" },
-      { label: "Specialized Labs", value: "8+" },
-      { label: "Alumni Worldwide", value: "4,500+" },
+      { label: "Established Under Trust", value: "2021" },
+      { label: "Statutory Approvals", value: "INC & TNNMC" },
+      { label: "University Affiliation", value: "TN M.G.R." },
+      { label: "Focus Area", value: "Women Empowerment" },
     ],
     highlights: [
-      "High-Fidelity Clinical Simulation Centers",
-      "Direct Hospital Immersion & Intensive Internship",
-      "Global Nursing Certification Coaching (NCLEX-RN, OET)",
-      "State-of-the-Art Anatomy & Pediatric Labs",
+      "Affiliated with Tamil Nadu Dr. M.G.R. Medical University & Approved by INC & TNNMC",
+      "Empowering Rural & Underprivileged Women Through Transformative Education",
+      "Modern Classrooms, High-Fidelity Skill Labs & Digital Learning Tools",
+      "Direct Clinical Partnerships & Bedside Experience from the Start",
     ],
+    motto: "Arise and Shine, Radiate Brilliance",
+    vision:
+      "To emerge as a distinguished epicenter of excellence in nursing education, dedicated to sculpting consummate nursing professionals who epitomize the highest standards of compassionate care, unwavering ethics, and profound human values.",
+    mission:
+      "To transcend boundaries in achieving supremacy in delivering unparalleled, empathetic, and avant-garde nursing care. We are devoted to empowering the education of marginalized village women, fostering their ascent from socio-economic adversity into beacons of intellectual and professional brilliance.",
     dean: {
-      name: "Dr. Rachel V. Sundaram, Ph.D. (Nursing)",
-      designation: "Principal & Dean",
+      name: "KCN Academic Leadership Council",
+      designation: "Principal & Nursing Faculty Directorate",
       message:
-        "Nursing is the backbone of modern healthcare. At Kamarajar College of Nursing, we combine rigorous academic theory with real-world bedside expertise to train international-standard nursing professionals.",
-      avatar: "/college/1.jpg",
+        "Nursing is more than earning a degree—it is a calling to serve with compassion, skill, and ethics. At Kamarajar College of Nursing in Chidambaram, we nurture responsible, caring, and confident healthcare professionals who radiate brilliance.",
+      avatar: "/college/1.webp",
     },
     programs: [
       {
@@ -42,16 +47,16 @@ export const INSTITUTIONS = [
         level: "Undergraduate",
         duration: "4 Years",
         eligibility:
-          "10+2 with Physics, Chemistry, Biology & English (Min 50%)",
+          "10+2 with Physics, Chemistry, Biology & English (Min 50%) recognized by INC & State Nursing Council",
         intake: 100,
         description:
-          "A comprehensive degree course designed to develop knowledge, skill, and attitude necessary to provide quality clinical nursing care.",
+          "A foundational healthcare degree producing skilled, empathetic, and professional nurses for clinical settings, hospitals, and community care globally.",
       },
     ],
     contact: {
-      phone: "+91 44 2745 8901",
+      phone: "+91 94876 08775 / +91 94864 19779",
       email: "nursing@ksagroup.edu.in",
-      location: "KSA Healthcare Campus, Chennai South Outer Ring, TN",
+      location: "Chidambaram, Cuddalore District, Tamil Nadu",
     },
   },
   {
@@ -61,33 +66,37 @@ export const INSTITUTIONS = [
     shortName: "KCP",
     category: "Pharmacy",
     tagline:
-      "Advancing Pharmaceutical Innovation, Drug Discovery & Clinical Excellence",
-    established: 2006,
-    affiliation: "The Tamil Nadu Dr. M.G.R. Medical University",
+      "Pioneers in Pharmacy Education, Industrial Research & Clinical Care",
+    established: 2017,
+    affiliation: "The Tamil Nadu Dr. M.G.R. Medical University & PCI Approved",
     accreditation:
-      "Pharmacy Council of India (PCI) & AICTE Approved | NIRF Ranked",
+      "2nd Place Awardee in Upcoming Institution Award (TN M.G.R. University Research Day 2025) | 10 Industry & Hospital MoUs",
     description:
-      "Kamarajar College of Pharmacy stands at the forefront of pharmaceutical education, research, and industrial formulation. With advanced instrumentation labs, pilot scale plant facilities, and active industry collaborations, we shape world-class pharmacists and drug researchers.",
+      "Kamarajar College of Pharmacy, Cuddalore, functioning under KSA Educational and Charitable Trust with nearly 100 dedicated staff members, is committed to professional excellence, research, innovation, and community development. Featuring tie-ups with Government Cuddalore Medical College Hospital (1,260 beds) and 10 industrial MoUs, KCP offers programs spanning D.Pharm, B.Pharm, Pharm.D, and M.Pharm specializations.",
     heroImage: "/college/Our-Nursing-Students-768x466.webp",
     campusImage:
       "https://images.unsplash.com/photo-1581093458791-9f3c3250a8b0?auto=format&fit=crop&q=80&w=1200",
     stats: [
-      { label: "Advanced Research Labs", value: "12+" },
-      { label: "Pharma Industry MOUs", value: "35+" },
-      { label: "Patents Filed", value: "18+" },
-      { label: "Avg Placement Package", value: "₹6.5 LPA" },
+      { label: "Staff Members", value: "100+" },
+      { label: "University Research Rank", value: "2nd Place" },
+      { label: "Industry & Hospital MoUs", value: "10 MoUs" },
+      { label: "Teaching Hospital Beds", value: "1,260 Beds" },
     ],
     highlights: [
-      "High-End Analytical Instrumentation (HPLC, UV-Vis, FTIR)",
-      "Hospital & Clinical Pharmacy Residency Training",
-      "Industrial Formulation & Manufacturing Prototype Unit",
-      "Herbal Medicine & Pharmacognosy Botanical Garden",
+      "Awarded 2nd Place in Upcoming Institution Award among Pharmacy Institutions (University Research Day 2025)",
+      "MoU with Govt Cuddalore Medical College Hospital (1,260-bed tertiary care teaching hospital) for Pharm.D Clinical Residency",
+      "10 Memoranda of Understanding (MoUs) for Industrial Formulation, Research & Hospital Internships",
+      "Specialized Labs in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmacognosy, Analysis & Biotechnology",
     ],
+    vision:
+      "To become Pioneers in Pharmacy Education and Research by preparing skilled, ethical and compassionate pharmacists who can meet global healthcare needs.",
+    mission:
+      "To provide quality Pharmacy education with innovative learning and practices; develop competencies to meet changing professional needs; foster innovative research with industrial focus; and practice community-level pharmaceutical healthcare.",
     dean: {
-      name: "Dr. K. Arunkumar, M.Pharm., Ph.D.",
-      designation: "Principal & Director of Research",
+      name: "Dr. G. Geetha, M.Pharm., Ph.D.",
+      designation: "Principal (Vice Principal: Mrs. R. Sudha, M.Pharm., Ph.D.)",
       message:
-        "The pharmaceutical sector is crucial to global health security. We empower our students with cutting-edge analytical tools, industrial exposure, and ethical research values to innovate life-saving therapeutics.",
+        "The College is dedicated to the holistic development of students, combining academic excellence, practical competencies, and clinical exposure. With our 10+ MoUs and teaching hospital partnerships, we train future pioneers in pharmaceutical sciences and patient care.",
       avatar: "/college/Our-Nursing-Students-768x466.webp",
     },
     programs: [
@@ -97,10 +106,10 @@ export const INSTITUTIONS = [
         level: "Diploma",
         duration: "2 Years",
         eligibility:
-          "10+2 with Physics, Chemistry & Biology / Mathematics (Min 50%)",
+          "10+2 Science stream with Physics, Chemistry & Biology / Mathematics",
         intake: 60,
         description:
-          "A fundamental qualification focusing on the preparation, dispensing, and distribution of medications, ideal for retail and hospital pharmacy careers.",
+          "Introduced in 2017 with 60 approved seats. Focuses on pharmaceutical fundamentals, medicine handling, patient interaction, dispensing, and hospital pharmacy practice.",
       },
       {
         id: "b-pharm",
@@ -108,38 +117,130 @@ export const INSTITUTIONS = [
         level: "Undergraduate",
         duration: "4 Years",
         eligibility:
-          "10+2 with Physics, Chemistry & Biology / Mathematics (Min 50%)",
-        intake: 100,
+          "10+2 Science with Physics, Chemistry, Biology/Maths & English, or D.Pharm qualification from PCI-approved institution for Lateral Entry to 3rd semester",
+        intake: 60,
         description:
-          "Comprehensive core degree covering pharmaceutics, pharmacology, medicinal chemistry, and pharmacognosy.",
-      },
-      {
-        id: "m-pharm",
-        name: "Master of Pharmacy (M.Pharm)",
-        level: "Postgraduate",
-        duration: "2 Years",
-        eligibility:
-          "B.Pharm degree from a PCI-approved institution with minimum 55% marks",
-        intake: 18,
-        description:
-          "Advanced specialization program with opportunities in pharmaceutical formulation, QA, and clinical research.",
+          "Introduced in 2021 with 60 approved seats. Comprehensive curriculum covering Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmacognosy, Analysis, and Biotechnology.",
       },
       {
         id: "pharm-d",
         name: "Doctor of Pharmacy (Pharm.D)",
         level: "Doctoral / Professional",
-        duration: "5 Years",
+        duration: "6 Years (5 Yrs Academic + 1 Yr Hospital Internship)",
         eligibility:
-          "10+2 with Physics, Chemistry & Biology / Mathematics (Min 50%) or D.Pharm",
+          "10+2 with Physics, Chemistry & Biology / Mathematics (Min 50% aggregate) or D.Pharm degree. Age: 17+ years",
         intake: 30,
         description:
-          "An elite professional clinical doctorate training students in clinical pharmacy services, drug monitoring, and patient care.",
+          "Introduced in 2025 with 30 approved seats. Clinical doctorate integrating hospital pharmacy, clinical toxicology, pharmacotherapeutics, and 1-year hands-on internship at Government Cuddalore Medical College Hospital (1,260 beds).",
+      },
+      {
+        id: "m-pharm-analysis",
+        name: "M.Pharm - Pharmaceutical Analysis",
+        level: "Postgraduate",
+        duration: "2 Years",
+        eligibility:
+          "B.Pharm degree from a PCI and TNMGRMU recognized institution satisfying PG regulations",
+        intake: 6,
+        description:
+          "Introduced in 2025 with 6 approved seats. Advanced PG program in pharmaceutical quality control, analytical research, and laboratory instrumentation.",
+      },
+      {
+        id: "m-pharm-ceutics",
+        name: "M.Pharm - Pharmaceutics",
+        level: "Postgraduate",
+        duration: "2 Years",
+        eligibility:
+          "B.Pharm degree from a PCI and TNMGRMU recognized institution satisfying PG regulations",
+        intake: 6,
+        description:
+          "Introduced in 2025 with 6 approved seats. Advanced education in pharmaceutical formulation development, technology, and R&D methodologies.",
       },
     ],
     contact: {
-      phone: "+91 44 2745 8902",
+      phone:
+        "+91 94876 08775 (CEO) / +91 94864 19779 (Principal) / +91 87782 74072 (Vice Principal)",
       email: "pharmacy@ksagroup.edu.in",
-      location: "KSA Knowledge City Campus, Chengalpattu Highway, TN",
+      location: "Kamarajar College of Pharmacy, Cuddalore, Tamil Nadu",
+    },
+  },
+  {
+    id: "polytechnic",
+    slug: "kamarajar-polytechnic-college",
+    name: "Kamarajar Polytechnic College",
+    shortName: "KPC",
+    category: "Polytechnic",
+    tagline:
+      "Engineering Practical Skills, Technical Mastery & High-Paying Careers",
+    established: 2015,
+    affiliation:
+      "Directorate of Technical Education (DoTE), Govt. of Tamil Nadu",
+    accreditation:
+      "AICTE Approved | 100% Placement Support with Free Higher Education Pathway",
+    description:
+      "Kamarajar Polytechnic College provides career-oriented technical education across core engineering streams. Featuring advanced laboratories, high-speed computer & internet centers, green campus environment, hostel & canteen facilities, KPC prepares diploma engineers for top MNC placements with attractive salary packages and free higher education opportunities.",
+    heroImage: "/college/collegeabout.png",
+    campusImage:
+      "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&q=80&w=1200",
+    stats: [
+      { label: "Annual Course Fee", value: "₹40,000" },
+      { label: "Annual Scholarship", value: "Up to ₹37,500" },
+      { label: "Core Diploma Branches", value: "3 Streams" },
+      { label: "Placement Assistance", value: "Top MNCs" },
+    ],
+    highlights: [
+      "Advanced Engineering Laboratories & Practical Skill Workshops",
+      "High-Speed Computer Center & Campus-Wide Internet Connectivity",
+      "Generous Annual Scholarships up to ₹37,500 per year (Fee: ₹40,000)",
+      "Top MNC Placement Drives with Attractive Salaries & Free Higher Education Options",
+      "Safe Hostel & Hygienic Canteen Infrastructure",
+    ],
+    vision:
+      "To build a center of technical education excellence that transforms young minds into highly skilled, employable, and ethically sound diploma engineers.",
+    mission:
+      "To deliver hands-on technical instruction, modern laboratory training, and industrial exposure to produce industry-ready engineering technicians.",
+    dean: {
+      name: "Vimalan L, M.Tech.",
+      designation: "Principal",
+      message:
+        "At Kamarajar Polytechnic College, we emphasize practical application and industry readiness. Our dedicated faculty, high-tech labs, and generous scholarship schemes empower students to achieve success in top MNCs.",
+      avatar: "/college/collegeabout.png",
+    },
+    programs: [
+      {
+        id: "diploma-eee",
+        name: "Diploma in Electrical & Electronics Engineering (EEE)",
+        level: "Diploma",
+        duration: "3 Years",
+        eligibility: "10th Standard Pass (SSLC) or equivalent",
+        intake: 60,
+        description:
+          "Comprehensive technical diploma covering electrical circuits, electronics, power systems, control machinery, and modern laboratory practicals.",
+      },
+      {
+        id: "diploma-mech",
+        name: "Diploma in Mechanical Engineering (MECH)",
+        level: "Diploma",
+        duration: "3 Years",
+        eligibility: "10th Standard Pass (SSLC) or equivalent",
+        intake: 60,
+        description:
+          "Practical diploma training in manufacturing technology, thermal engineering, CAD/CAM, fluid mechanics, and machine design.",
+      },
+      {
+        id: "diploma-auto",
+        name: "Diploma in Automobile Engineering (DAE)",
+        level: "Diploma",
+        duration: "3 Years",
+        eligibility: "10th Standard Pass (SSLC) or equivalent",
+        intake: 60,
+        description:
+          "Specialized automotive diploma covering IC engines, vehicle dynamics, auto-electronics, servicing technology, and electric vehicles.",
+      },
+    ],
+    contact: {
+      phone: "+91 94876 08775 / +91 94864 19779",
+      email: "polytechnic@ksagroup.edu.in",
+      location: "Kamarajar Polytechnic College Campus, Tamil Nadu",
     },
   },
   {
@@ -202,10 +303,9 @@ export const INSTITUTIONS = [
       },
     ],
     contact: {
-      phone: "+91 44 2745 8903",
+      phone: "+91 44 2745 8903 / +91 94876 08775",
       email: "maritime@ksagroup.edu.in",
-      location:
-        "KSA Oceanside Marine Campus, East Coast Road (ECR), Chennai, TN",
+      location: "KSA Oceanside Marine Campus, East Coast Road (ECR), TN",
     },
   },
 ];
@@ -214,5 +314,6 @@ export const INSTITUTION_CATEGORIES = [
   "All Institutions",
   "Nursing",
   "Pharmacy",
+  "Polytechnic",
   "Maritime",
 ];
